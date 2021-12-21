@@ -1,0 +1,48 @@
+@font-face { 
+    font-family: Gibberish; 
+    src: url(redactedscript-light-webfont.woff); 
+}
+
+h3 {
+    font-style: italic;
+}
+
+.gibberish {
+    font-family: "Gibberish";
+}
+
+
+
+h1 {
+    font-variant: small-caps  ;
+    color: red;
+}
+
+
+/* ** titolo homepage  */
+.site-title a {
+    position: relative;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+.site-title a::after {
+    content: "ProjectBlue";
+    position: absolute;
+    width: 100%;
+    top: 8px;
+    bottom: 0;
+    left: 8px;
+    right: 0;
+    color: darkblue !important;
+}
+.site-title a::before {
+    content: "ProjectBlue";
+    position: absolute;
+    width: 100%;
+    top: 6px;
+    bottom: 0;
+    left: 4px;
+    right: 0;
+    color: blue !important;
+}

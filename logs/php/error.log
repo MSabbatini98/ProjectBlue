@@ -1,0 +1,1245 @@
+[16-Dec-2021 09:08:59 UTC] PHP Recoverable fatal error:  Object of class WP_User could not be converted to string in /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/functions.php on line 21
+[16-Dec-2021 09:08:59 UTC] PHP Stack trace:
+[16-Dec-2021 09:08:59 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/admin-ajax.php:0
+[16-Dec-2021 09:08:59 UTC] PHP   2. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/admin-ajax.php:187
+[16-Dec-2021 09:08:59 UTC] PHP   3. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[16-Dec-2021 09:08:59 UTC] PHP   4. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 09:08:59 UTC] PHP   5. Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 09:08:59 UTC] PHP   6. call_user_func:{/Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php:171}() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php:171
+[16-Dec-2021 09:08:59 UTC] PHP   7. Elementor\Widgets_Manager->ajax_render_widget() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php:171
+[16-Dec-2021 09:08:59 UTC] PHP   8. Elementor\Core\DocumentTypes\Post->render_element() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/includes/managers/widgets.php:390
+[16-Dec-2021 09:08:59 UTC] PHP   9. Elementor\Widget_Shortcode->render_content() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/core/base/document.php:282
+[16-Dec-2021 09:08:59 UTC] PHP  10. Elementor\Widget_Shortcode->render_by_mode() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:584
+[16-Dec-2021 09:08:59 UTC] PHP  11. Elementor\Widget_Shortcode->render() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:2172
+[16-Dec-2021 09:08:59 UTC] PHP  12. do_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php:130
+[16-Dec-2021 09:08:59 UTC] PHP  13. preg_replace_callback() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:08:59 UTC] PHP  14. do_shortcode_tag() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:08:59 UTC] PHP  15. wpb_demo_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:356
+[16-Dec-2021 09:09:26 UTC] PHP Recoverable fatal error:  Object of class WP_User could not be converted to string in /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/functions.php on line 21
+[16-Dec-2021 09:09:26 UTC] PHP Stack trace:
+[16-Dec-2021 09:09:26 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/admin-ajax.php:0
+[16-Dec-2021 09:09:26 UTC] PHP   2. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/admin-ajax.php:187
+[16-Dec-2021 09:09:26 UTC] PHP   3. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[16-Dec-2021 09:09:26 UTC] PHP   4. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 09:09:26 UTC] PHP   5. Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 09:09:26 UTC] PHP   6. call_user_func:{/Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php:171}() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php:171
+[16-Dec-2021 09:09:26 UTC] PHP   7. Elementor\Widgets_Manager->ajax_render_widget() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php:171
+[16-Dec-2021 09:09:26 UTC] PHP   8. Elementor\Core\DocumentTypes\Post->render_element() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/includes/managers/widgets.php:390
+[16-Dec-2021 09:09:26 UTC] PHP   9. Elementor\Widget_Shortcode->render_content() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/core/base/document.php:282
+[16-Dec-2021 09:09:26 UTC] PHP  10. Elementor\Widget_Shortcode->render_by_mode() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:584
+[16-Dec-2021 09:09:26 UTC] PHP  11. Elementor\Widget_Shortcode->render() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:2172
+[16-Dec-2021 09:09:26 UTC] PHP  12. do_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php:130
+[16-Dec-2021 09:09:26 UTC] PHP  13. preg_replace_callback() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:09:26 UTC] PHP  14. do_shortcode_tag() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:09:26 UTC] PHP  15. wpb_demo_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:356
+[16-Dec-2021 09:10:35 UTC] PHP Recoverable fatal error:  Object of class WP_User could not be converted to string in /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/functions.php on line 21
+[16-Dec-2021 09:10:35 UTC] PHP Stack trace:
+[16-Dec-2021 09:10:35 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:0
+[16-Dec-2021 09:10:35 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:187
+[16-Dec-2021 09:10:35 UTC] PHP   3. block_editor_rest_api_preload() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/edit-form-blocks.php:68
+[16-Dec-2021 09:10:35 UTC] PHP   4. array_reduce() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:10:35 UTC] PHP   5. rest_preload_api_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:10:35 UTC] PHP   6. rest_do_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:2832
+[16-Dec-2021 09:10:35 UTC] PHP   7. WP_REST_Server->dispatch() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:495
+[16-Dec-2021 09:10:35 UTC] PHP   8. WP_REST_Server->respond_to_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[16-Dec-2021 09:10:35 UTC] PHP   9. WP_REST_Autosaves_Controller->get_items() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[16-Dec-2021 09:10:35 UTC] PHP  10. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:300
+[16-Dec-2021 09:10:35 UTC] PHP  11. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[16-Dec-2021 09:10:35 UTC] PHP  12. apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[16-Dec-2021 09:10:35 UTC] PHP  13. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:189
+[16-Dec-2021 09:10:35 UTC] PHP  14. do_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 09:10:35 UTC] PHP  15. preg_replace_callback() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:10:35 UTC] PHP  16. do_shortcode_tag() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:10:35 UTC] PHP  17. wpb_demo_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:356
+[16-Dec-2021 09:12:27 UTC] PHP Recoverable fatal error:  Object of class WP_User could not be converted to string in /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/functions.php on line 21
+[16-Dec-2021 09:12:27 UTC] PHP Stack trace:
+[16-Dec-2021 09:12:27 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:0
+[16-Dec-2021 09:12:27 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:187
+[16-Dec-2021 09:12:27 UTC] PHP   3. block_editor_rest_api_preload() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/edit-form-blocks.php:68
+[16-Dec-2021 09:12:27 UTC] PHP   4. array_reduce() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:12:27 UTC] PHP   5. rest_preload_api_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:12:27 UTC] PHP   6. rest_do_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:2832
+[16-Dec-2021 09:12:27 UTC] PHP   7. WP_REST_Server->dispatch() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:495
+[16-Dec-2021 09:12:27 UTC] PHP   8. WP_REST_Server->respond_to_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[16-Dec-2021 09:12:27 UTC] PHP   9. WP_REST_Autosaves_Controller->get_items() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[16-Dec-2021 09:12:27 UTC] PHP  10. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:300
+[16-Dec-2021 09:12:27 UTC] PHP  11. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[16-Dec-2021 09:12:27 UTC] PHP  12. apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[16-Dec-2021 09:12:27 UTC] PHP  13. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:189
+[16-Dec-2021 09:12:27 UTC] PHP  14. do_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 09:12:27 UTC] PHP  15. preg_replace_callback() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:12:27 UTC] PHP  16. do_shortcode_tag() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:12:27 UTC] PHP  17. wpb_demo_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:356
+[16-Dec-2021 09:12:31 UTC] PHP Recoverable fatal error:  Object of class WP_User could not be converted to string in /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/functions.php on line 21
+[16-Dec-2021 09:12:31 UTC] PHP Stack trace:
+[16-Dec-2021 09:12:31 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:0
+[16-Dec-2021 09:12:31 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:187
+[16-Dec-2021 09:12:31 UTC] PHP   3. block_editor_rest_api_preload() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/edit-form-blocks.php:68
+[16-Dec-2021 09:12:31 UTC] PHP   4. array_reduce() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:12:31 UTC] PHP   5. rest_preload_api_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:12:31 UTC] PHP   6. rest_do_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:2832
+[16-Dec-2021 09:12:31 UTC] PHP   7. WP_REST_Server->dispatch() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:495
+[16-Dec-2021 09:12:31 UTC] PHP   8. WP_REST_Server->respond_to_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[16-Dec-2021 09:12:31 UTC] PHP   9. WP_REST_Autosaves_Controller->get_items() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[16-Dec-2021 09:12:31 UTC] PHP  10. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:300
+[16-Dec-2021 09:12:31 UTC] PHP  11. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[16-Dec-2021 09:12:31 UTC] PHP  12. apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[16-Dec-2021 09:12:31 UTC] PHP  13. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:189
+[16-Dec-2021 09:12:31 UTC] PHP  14. do_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 09:12:31 UTC] PHP  15. preg_replace_callback() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:12:31 UTC] PHP  16. do_shortcode_tag() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:12:31 UTC] PHP  17. wpb_demo_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:356
+[16-Dec-2021 09:12:55 UTC] PHP Recoverable fatal error:  Object of class WP_User could not be converted to string in /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/functions.php on line 21
+[16-Dec-2021 09:12:55 UTC] PHP Stack trace:
+[16-Dec-2021 09:12:55 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:0
+[16-Dec-2021 09:12:55 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:187
+[16-Dec-2021 09:12:55 UTC] PHP   3. block_editor_rest_api_preload() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/edit-form-blocks.php:68
+[16-Dec-2021 09:12:55 UTC] PHP   4. array_reduce() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:12:55 UTC] PHP   5. rest_preload_api_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:12:55 UTC] PHP   6. rest_do_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:2832
+[16-Dec-2021 09:12:55 UTC] PHP   7. WP_REST_Server->dispatch() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:495
+[16-Dec-2021 09:12:55 UTC] PHP   8. WP_REST_Server->respond_to_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[16-Dec-2021 09:12:55 UTC] PHP   9. WP_REST_Autosaves_Controller->get_items() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[16-Dec-2021 09:12:55 UTC] PHP  10. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:300
+[16-Dec-2021 09:12:55 UTC] PHP  11. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[16-Dec-2021 09:12:55 UTC] PHP  12. apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[16-Dec-2021 09:12:55 UTC] PHP  13. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:189
+[16-Dec-2021 09:12:55 UTC] PHP  14. do_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 09:12:55 UTC] PHP  15. preg_replace_callback() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:12:55 UTC] PHP  16. do_shortcode_tag() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:12:55 UTC] PHP  17. wpb_demo_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:356
+[16-Dec-2021 09:13:25 UTC] PHP Recoverable fatal error:  Object of class WP_User could not be converted to string in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php on line 356
+[16-Dec-2021 09:13:25 UTC] PHP Stack trace:
+[16-Dec-2021 09:13:25 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:0
+[16-Dec-2021 09:13:25 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:187
+[16-Dec-2021 09:13:25 UTC] PHP   3. block_editor_rest_api_preload() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/edit-form-blocks.php:68
+[16-Dec-2021 09:13:25 UTC] PHP   4. array_reduce() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:13:25 UTC] PHP   5. rest_preload_api_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:13:25 UTC] PHP   6. rest_do_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:2832
+[16-Dec-2021 09:13:25 UTC] PHP   7. WP_REST_Server->dispatch() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:495
+[16-Dec-2021 09:13:25 UTC] PHP   8. WP_REST_Server->respond_to_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[16-Dec-2021 09:13:25 UTC] PHP   9. WP_REST_Autosaves_Controller->get_items() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[16-Dec-2021 09:13:25 UTC] PHP  10. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:300
+[16-Dec-2021 09:13:25 UTC] PHP  11. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[16-Dec-2021 09:13:25 UTC] PHP  12. apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[16-Dec-2021 09:13:25 UTC] PHP  13. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:189
+[16-Dec-2021 09:13:25 UTC] PHP  14. do_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 09:13:25 UTC] PHP  15. preg_replace_callback() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:13:25 UTC] PHP  16. do_shortcode_tag() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:15:25 UTC] PHP Recoverable fatal error:  Object of class WP_User could not be converted to string in /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/functions.php on line 22
+[16-Dec-2021 09:15:25 UTC] PHP Stack trace:
+[16-Dec-2021 09:15:25 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:0
+[16-Dec-2021 09:15:25 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/post.php:187
+[16-Dec-2021 09:15:25 UTC] PHP   3. block_editor_rest_api_preload() /Users/matteo/Local Sites/projectblue/app/public/wp-admin/edit-form-blocks.php:68
+[16-Dec-2021 09:15:25 UTC] PHP   4. array_reduce() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:15:25 UTC] PHP   5. rest_preload_api_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/block-editor.php:444
+[16-Dec-2021 09:15:25 UTC] PHP   6. rest_do_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:2832
+[16-Dec-2021 09:15:25 UTC] PHP   7. WP_REST_Server->dispatch() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api.php:495
+[16-Dec-2021 09:15:25 UTC] PHP   8. WP_REST_Server->respond_to_request() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[16-Dec-2021 09:15:25 UTC] PHP   9. WP_REST_Autosaves_Controller->get_items() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[16-Dec-2021 09:15:25 UTC] PHP  10. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:300
+[16-Dec-2021 09:15:25 UTC] PHP  11. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[16-Dec-2021 09:15:25 UTC] PHP  12. apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[16-Dec-2021 09:15:25 UTC] PHP  13. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:189
+[16-Dec-2021 09:15:25 UTC] PHP  14. do_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 09:15:25 UTC] PHP  15. preg_replace_callback() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:15:25 UTC] PHP  16. do_shortcode_tag() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:228
+[16-Dec-2021 09:15:25 UTC] PHP  17. wpb_demo_shortcode() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/shortcodes.php:356
+[17-Dec-2021 11:36:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:21 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:21 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:21 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:21 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:21 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:21 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:36:21 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:21 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:21 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:21 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:21 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:21 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:21 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:21 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:21 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:21 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:21 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:21 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:21 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:21 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:21 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:21 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:21 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:36:21 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:21 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:21 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:21 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:21 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:21 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:21 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:21 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:21 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:21 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:21 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:23 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:23 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:23 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:23 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:23 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:23 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:36:23 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:23 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:23 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:23 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:23 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:23 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:23 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:23 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:23 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:23 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:23 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:24 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:24 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:24 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:24 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:24 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:24 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:36:24 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:24 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:24 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:24 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:24 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:24 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:24 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:24 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:24 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:24 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:24 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:26 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:26 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:26 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:26 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:26 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:26 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:36:26 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:26 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:26 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:26 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:26 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:26 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:26 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:26 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:26 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:26 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:26 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:26 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:26 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:26 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:26 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:26 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:26 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:36:26 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:26 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:26 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:26 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:26 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:26 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:26 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:26 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:26 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:26 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:26 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:28 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:28 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:28 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:28 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:28 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:28 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:36:28 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:28 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:28 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:28 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:28 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:28 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:28 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:28 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:28 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:28 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:28 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:29 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:29 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:29 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:29 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:29 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:29 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:36:29 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:29 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:29 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:29 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:29 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:29 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:29 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:29 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:29 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:29 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:29 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:39 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:39 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:39 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:39 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:39 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:39 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:36:39 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:39 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:39 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:39 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:39 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:39 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:39 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:39 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:39 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:39 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:39 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:40 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:40 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:40 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:40 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:40 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:40 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:36:40 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:40 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:40 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:40 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:40 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:40 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:40 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:40 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:40 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:40 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:40 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:44 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:44 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:44 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:44 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:44 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:44 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:36:44 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:44 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:44 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:44 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:44 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:44 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:44 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:44 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:44 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:44 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:44 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:45 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:45 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:45 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:45 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:45 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:45 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:45 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:36:45 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:45 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:45 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:45 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:45 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:45 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:45 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:45 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:45 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:45 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:45 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:50 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:50 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:50 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:50 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:50 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:50 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:36:50 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:50 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:50 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:50 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:50 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:50 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:50 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:50 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:50 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:50 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:50 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:50 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:50 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:50 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:50 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:50 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:50 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:36:50 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:50 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:50 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:50 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:50 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:50 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:50 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:50 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:50 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:50 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:50 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:57 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:57 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:57 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:57 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:57 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:57 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:36:57 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:57 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:57 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:57 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:57 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:57 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:57 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:57 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:57 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:57 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:57 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:36:57 UTC] PHP Stack trace:
+[17-Dec-2021 11:36:57 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:36:57 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:36:57 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:36:57 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:36:57 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:36:57 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:36:57 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:36:57 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:36:57 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:36:57 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:36:57 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:57 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:36:57 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:36:57 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:36:57 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:36:57 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:00 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:00 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:00 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:00 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:00 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:00 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:37:00 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:00 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:00 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:00 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:00 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:00 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:00 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:00 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:00 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:00 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:00 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:01 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:01 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:01 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:01 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:01 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:01 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:37:01 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:01 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:01 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:01 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:01 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:01 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:01 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:01 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:01 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:01 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:01 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:03 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:03 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:03 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:03 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:03 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:03 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:37:03 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:03 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:03 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:03 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:03 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:03 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:03 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:03 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:03 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:03 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:03 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:03 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:03 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:03 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:03 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:03 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:03 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:37:03 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:03 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:03 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:03 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:03 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:03 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:03 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:03 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:03 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:03 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:03 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:05 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:05 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:05 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:05 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:05 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:05 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:37:05 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:05 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:05 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:05 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:05 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:05 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:05 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:05 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:05 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:05 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:05 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:05 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:05 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:05 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:05 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:05 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:05 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:37:05 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:05 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:05 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:05 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:05 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:05 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:05 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:05 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:05 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:05 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:05 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:11 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:11 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:11 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:11 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:11 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:11 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:37:11 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:11 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:11 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:11 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:11 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:11 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:11 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:11 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:11 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:11 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:11 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:11 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:11 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:11 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:11 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:11 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:11 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:37:11 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:11 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:11 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:11 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:11 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:11 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:11 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:11 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:11 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:11 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:11 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:14 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:14 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:14 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:14 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:14 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:14 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:37:14 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:14 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:14 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:14 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:14 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:14 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:14 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:14 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:14 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:14 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:14 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:15 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:15 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:15 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:15 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:15 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:15 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:37:15 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:15 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:15 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:15 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:15 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:15 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:15 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:15 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:15 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:15 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:15 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:20 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:20 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:20 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:20 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:20 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:20 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:37:20 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:20 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:20 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:20 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:20 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:20 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:20 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:20 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:20 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:20 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:20 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:20 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:20 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:20 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:20 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:20 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:20 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:37:20 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:20 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:20 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:20 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:20 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:20 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:20 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:20 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:20 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:20 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:20 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:23 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:23 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:23 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:23 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:23 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:23 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:37:23 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:23 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:23 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:23 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:23 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:23 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:23 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:23 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:23 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:23 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:23 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:24 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:24 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:24 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:24 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:24 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:24 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:37:24 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:24 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:24 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:24 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:24 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:24 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:24 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:24 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:24 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:24 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:24 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:26 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:26 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:26 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:26 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:26 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:26 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:37:26 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:26 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:26 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:26 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:26 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:26 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:26 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:26 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:26 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:26 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:26 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:37:26 UTC] PHP Stack trace:
+[17-Dec-2021 11:37:26 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:37:26 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:37:26 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:37:26 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:37:26 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:37:26 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:37:26 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:37:26 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:37:26 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:37:26 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:37:26 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:26 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:37:26 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:37:26 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:37:26 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:37:26 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:38:40 UTC] PHP Stack trace:
+[17-Dec-2021 11:38:40 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:38:40 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:38:40 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:38:40 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:38:40 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:38:40 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:38:40 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:38:40 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:38:40 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:38:40 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:38:40 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:40 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:40 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:38:40 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:38:40 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:40 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:38:40 UTC] PHP Stack trace:
+[17-Dec-2021 11:38:40 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:38:40 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:38:40 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:38:40 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:38:40 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:38:40 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:38:40 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:38:40 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:38:40 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:38:40 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:38:40 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:40 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:40 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:38:40 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:38:40 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:40 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:38:43 UTC] PHP Stack trace:
+[17-Dec-2021 11:38:43 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:38:43 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:38:43 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:38:43 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:38:43 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:38:43 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:38:43 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:38:43 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:38:43 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:38:43 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:38:43 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:43 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:43 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:38:43 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:38:43 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:43 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:38:43 UTC] PHP Stack trace:
+[17-Dec-2021 11:38:43 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:38:43 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:38:43 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:38:43 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:38:43 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:38:43 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:38:43 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:38:43 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:38:43 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:38:43 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:38:43 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:43 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:43 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:38:43 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:38:43 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:43 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:46 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:38:46 UTC] PHP Stack trace:
+[17-Dec-2021 11:38:46 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:38:46 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:38:46 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:38:46 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:38:46 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:38:46 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:38:46 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:38:46 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:38:46 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:38:46 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:38:46 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:46 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:46 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:38:46 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:38:46 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:46 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:46 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:38:46 UTC] PHP Stack trace:
+[17-Dec-2021 11:38:46 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:38:46 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:38:46 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:38:46 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:38:46 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:38:46 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:38:46 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:38:46 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:38:46 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:38:46 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:38:46 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:46 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:46 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:38:46 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:38:46 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:46 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:38:50 UTC] PHP Stack trace:
+[17-Dec-2021 11:38:50 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:38:50 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:38:50 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:38:50 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:38:50 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:38:50 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:38:50 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:38:50 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:38:50 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:38:50 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:38:50 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:50 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:50 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:38:50 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:38:50 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:50 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_font_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:38:50 UTC] PHP Stack trace:
+[17-Dec-2021 11:38:50 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:38:50 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:38:50 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:38:50 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:38:50 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:38:50 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:38:50 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:38:50 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:38:50 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:38:50 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:38:50 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:50 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:38:50 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:38:50 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:38:50 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:38:50 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:43:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:43:58 UTC] PHP Stack trace:
+[17-Dec-2021 11:43:58 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:43:58 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:43:58 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:43:58 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:43:58 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/index.php:17
+[17-Dec-2021 11:43:58 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:43:58 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:43:58 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:43:58 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:43:58 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:43:58 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:43:58 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:43:58 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:43:58 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:43:58 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:43:58 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:43:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[17-Dec-2021 11:43:58 UTC] PHP Stack trace:
+[17-Dec-2021 11:43:58 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[17-Dec-2021 11:43:58 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[17-Dec-2021 11:43:58 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[17-Dec-2021 11:43:58 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[17-Dec-2021 11:43:58 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[17-Dec-2021 11:43:58 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[17-Dec-2021 11:43:58 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[17-Dec-2021 11:43:58 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[17-Dec-2021 11:43:58 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/header.php:19
+[17-Dec-2021 11:43:58 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[17-Dec-2021 11:43:58 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:43:58 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[17-Dec-2021 11:43:58 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[17-Dec-2021 11:43:58 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[17-Dec-2021 11:43:58 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[17-Dec-2021 11:43:58 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:51:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:51:40 UTC] PHP Stack trace:
+[21-Dec-2021 09:51:40 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:51:40 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:51:40 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:51:40 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:51:40 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/landing101.php:4
+[21-Dec-2021 09:51:40 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:51:40 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:51:40 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:51:40 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:51:40 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:51:40 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:51:40 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:51:40 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:51:40 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:51:40 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:51:40 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:51:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:51:40 UTC] PHP Stack trace:
+[21-Dec-2021 09:51:40 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:51:40 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:51:40 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:51:40 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:51:40 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[21-Dec-2021 09:51:40 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:51:40 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:51:40 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:51:40 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:51:40 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:51:40 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:51:40 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:51:40 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:51:40 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:51:40 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:51:40 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:51:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:51:55 UTC] PHP Stack trace:
+[21-Dec-2021 09:51:55 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:51:55 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:51:55 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:51:55 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:51:55 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/landing101.php:4
+[21-Dec-2021 09:51:55 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:51:55 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:51:55 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:51:55 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:51:55 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:51:55 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:51:55 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:51:55 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:51:55 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:51:55 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:51:55 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:51:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:51:56 UTC] PHP Stack trace:
+[21-Dec-2021 09:51:56 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:51:56 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:51:56 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:51:56 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:51:56 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[21-Dec-2021 09:51:56 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:51:56 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:51:56 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:51:56 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:51:56 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:51:56 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:51:56 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:51:56 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:51:56 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:51:56 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:51:56 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:52:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:52:58 UTC] PHP Stack trace:
+[21-Dec-2021 09:52:58 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:52:58 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:52:58 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:52:58 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:52:58 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/landing101.php:4
+[21-Dec-2021 09:52:58 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:52:58 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:52:58 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:52:58 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:52:58 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:52:58 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:52:58 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:52:58 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:52:58 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:52:58 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:52:58 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:52:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:52:58 UTC] PHP Stack trace:
+[21-Dec-2021 09:52:58 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:52:58 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:52:58 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:52:58 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:52:58 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[21-Dec-2021 09:52:58 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:52:58 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:52:58 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:52:58 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:52:58 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:52:58 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:52:58 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:52:58 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:52:58 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:52:58 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:52:58 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:53:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:53:34 UTC] PHP Stack trace:
+[21-Dec-2021 09:53:34 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:53:34 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:53:34 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:53:34 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:53:34 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/landing101.php:4
+[21-Dec-2021 09:53:34 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:53:34 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:53:34 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:53:34 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:53:34 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:53:34 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:53:34 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:53:34 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:53:34 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:53:34 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:53:34 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:53:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:53:34 UTC] PHP Stack trace:
+[21-Dec-2021 09:53:34 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:53:34 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:53:34 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:53:34 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:53:34 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[21-Dec-2021 09:53:34 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:53:34 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:53:34 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:53:34 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:53:34 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:53:34 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:53:34 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:53:34 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:53:34 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:53:34 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:53:34 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:54:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:54:33 UTC] PHP Stack trace:
+[21-Dec-2021 09:54:33 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:54:33 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:54:33 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:54:33 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:54:33 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/landing101.php:4
+[21-Dec-2021 09:54:33 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:54:33 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:54:33 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:54:33 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:54:33 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:54:33 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:54:33 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:54:33 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:54:33 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:54:33 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:54:33 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:54:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:54:34 UTC] PHP Stack trace:
+[21-Dec-2021 09:54:34 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:54:34 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:54:34 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:54:34 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:54:34 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[21-Dec-2021 09:54:34 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:54:34 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:54:34 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:54:34 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:54:34 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:54:34 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:54:34 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:54:34 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:54:34 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:54:34 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:54:34 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:56:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:56:11 UTC] PHP Stack trace:
+[21-Dec-2021 09:56:11 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:56:11 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:56:11 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:56:11 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:56:11 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/landing101.php:4
+[21-Dec-2021 09:56:11 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:56:11 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:56:11 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:56:11 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:56:11 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:56:11 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:56:11 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:56:11 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:56:11 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:56:11 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:56:11 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:56:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 09:56:12 UTC] PHP Stack trace:
+[21-Dec-2021 09:56:12 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 09:56:12 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 09:56:12 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 09:56:12 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 09:56:12 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[21-Dec-2021 09:56:12 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 09:56:12 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 09:56:12 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 09:56:12 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 09:56:12 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 09:56:12 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:56:12 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 09:56:12 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 09:56:12 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 09:56:12 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 09:56:12 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 10:17:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 10:17:55 UTC] PHP Stack trace:
+[21-Dec-2021 10:17:55 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 10:17:55 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 10:17:55 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 10:17:55 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 10:17:55 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/landing101.php:4
+[21-Dec-2021 10:17:55 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 10:17:55 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 10:17:55 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 10:17:55 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 10:17:55 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 10:17:55 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 10:17:55 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 10:17:55 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 10:17:55 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 10:17:55 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 10:17:55 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 10:18:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 10:18:16 UTC] PHP Stack trace:
+[21-Dec-2021 10:18:16 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 10:18:16 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 10:18:16 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 10:18:16 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 10:18:16 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/landing101.php:4
+[21-Dec-2021 10:18:16 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 10:18:16 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 10:18:16 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 10:18:16 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 10:18:16 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 10:18:16 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 10:18:16 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 10:18:16 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 10:18:16 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 10:18:16 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 10:18:16 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 10:20:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 10:20:38 UTC] PHP Stack trace:
+[21-Dec-2021 10:20:38 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 10:20:38 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 10:20:38 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 10:20:38 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 10:20:38 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/landing101.php:4
+[21-Dec-2021 10:20:38 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 10:20:38 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 10:20:38 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 10:20:38 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 10:20:38 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 10:20:38 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 10:20:38 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 10:20:38 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 10:20:38 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 10:20:38 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 10:20:38 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 10:23:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 10:23:48 UTC] PHP Stack trace:
+[21-Dec-2021 10:23:48 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 10:23:48 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 10:23:48 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 10:23:48 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 10:23:48 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/landing101.php:4
+[21-Dec-2021 10:23:48 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 10:23:48 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 10:23:48 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 10:23:48 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 10:23:48 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 10:23:48 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 10:23:48 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 10:23:48 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 10:23:48 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 10:23:48 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 10:23:48 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 11:44:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 11:44:27 UTC] PHP Stack trace:
+[21-Dec-2021 11:44:27 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 11:44:27 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 11:44:27 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 11:44:27 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 11:44:27 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/page.php:12
+[21-Dec-2021 11:44:27 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 11:44:27 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 11:44:27 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 11:44:27 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 11:44:27 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 11:44:27 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 11:44:27 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 11:44:27 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 11:44:27 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 11:44:27 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 11:44:27 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 11:44:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 11:44:27 UTC] PHP Stack trace:
+[21-Dec-2021 11:44:27 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 11:44:27 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 11:44:27 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 11:44:27 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 11:44:27 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen/404.php:12
+[21-Dec-2021 11:44:27 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 11:44:27 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 11:44:27 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 11:44:27 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 11:44:27 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 11:44:27 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 11:44:27 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 11:44:27 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 11:44:27 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 11:44:27 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 11:44:27 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 11:45:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_fonts_styles' not found or invalid function name in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php on line 303
+[21-Dec-2021 11:45:03 UTC] PHP Stack trace:
+[21-Dec-2021 11:45:03 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[21-Dec-2021 11:45:03 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[21-Dec-2021 11:45:03 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:19
+[21-Dec-2021 11:45:03 UTC] PHP   4. include() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template-loader.php:106
+[21-Dec-2021 11:45:03 UTC] PHP   5. get_header() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/page.php:12
+[21-Dec-2021 11:45:03 UTC] PHP   6. locate_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:48
+[21-Dec-2021 11:45:03 UTC] PHP   7. load_template() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:716
+[21-Dec-2021 11:45:03 UTC] PHP   8. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/template.php:770
+[21-Dec-2021 11:45:03 UTC] PHP   9. wp_head() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/header.php:19
+[21-Dec-2021 11:45:03 UTC] PHP  10. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/general-template.php:3015
+[21-Dec-2021 11:45:03 UTC] PHP  11. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 11:45:03 UTC] PHP  12. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
+[21-Dec-2021 11:45:03 UTC] PHP  13. wp_enqueue_scripts() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:303
+[21-Dec-2021 11:45:03 UTC] PHP  14. do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/script-loader.php:2083
+[21-Dec-2021 11:45:03 UTC] PHP  15. WP_Hook->do_action() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/plugin.php:470
+[21-Dec-2021 11:45:03 UTC] PHP  16. WP_Hook->apply_filters() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/class-wp-hook.php:327
