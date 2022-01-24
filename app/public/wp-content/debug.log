@@ -16496,3 +16496,53 @@ Stack trace:
 [24-Jan-2022 14:17:10 UTC] PHP   7. _wp_scripts_maybe_doing_it_wrong() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.wp-styles.php:174
 [24-Jan-2022 14:17:10 UTC] PHP   8. _doing_it_wrong() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.wp-scripts.php:67
 [24-Jan-2022 14:17:10 UTC] PHP   9. trigger_error() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.php:5663
+[24-Jan-2022 14:38:26 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/wp-db.php on line 1653
+[24-Jan-2022 14:38:26 UTC] PHP Stack trace:
+[24-Jan-2022 14:38:26 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[24-Jan-2022 14:38:26 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[24-Jan-2022 14:38:26 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[24-Jan-2022 14:38:26 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[24-Jan-2022 14:38:26 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[24-Jan-2022 14:38:26 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[24-Jan-2022 14:38:26 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[24-Jan-2022 14:38:26 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[24-Jan-2022 14:38:26 UTC] PHP   9. require_wp_db() /Users/matteo/Local Sites/projectblue/app/public/wp-settings.php:124
+[24-Jan-2022 14:38:26 UTC] PHP  10. wpdb->__construct() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/load.php:558
+[24-Jan-2022 14:38:26 UTC] PHP  11. wpdb->db_connect() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/wp-db.php:632
+[24-Jan-2022 14:38:26 UTC] PHP  12. mysqli_real_connect() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/wp-db.php:1653
+[24-Jan-2022 14:38:43 UTC] PHP Notice:  wp_enqueue_style was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. This notice was triggered by the <code>fonts</code> handle. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.php on line 5663
+[24-Jan-2022 14:38:43 UTC] PHP Stack trace:
+[24-Jan-2022 14:38:43 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[24-Jan-2022 14:38:43 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[24-Jan-2022 14:38:43 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:13
+[24-Jan-2022 14:38:43 UTC] PHP   4. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-load.php:50
+[24-Jan-2022 14:38:43 UTC] PHP   5. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-config.php:93
+[24-Jan-2022 14:38:43 UTC] PHP   6. include() /Users/matteo/Local Sites/projectblue/app/public/wp-settings.php:546
+[24-Jan-2022 14:38:43 UTC] PHP   7. wp_enqueue_style() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/functions.php:19
+[24-Jan-2022 14:38:43 UTC] PHP   8. _wp_scripts_maybe_doing_it_wrong() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.wp-styles.php:174
+[24-Jan-2022 14:38:43 UTC] PHP   9. _doing_it_wrong() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.wp-scripts.php:67
+[24-Jan-2022 14:38:43 UTC] PHP  10. trigger_error() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.php:5663
+[24-Jan-2022 14:38:43 UTC] PHP Notice:  wp_enqueue_style was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. This notice was triggered by the <code>header</code> handle. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.php on line 5663
+[24-Jan-2022 14:38:43 UTC] PHP Stack trace:
+[24-Jan-2022 14:38:43 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[24-Jan-2022 14:38:43 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[24-Jan-2022 14:38:43 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:13
+[24-Jan-2022 14:38:43 UTC] PHP   4. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-load.php:50
+[24-Jan-2022 14:38:43 UTC] PHP   5. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-config.php:93
+[24-Jan-2022 14:38:43 UTC] PHP   6. include() /Users/matteo/Local Sites/projectblue/app/public/wp-settings.php:546
+[24-Jan-2022 14:38:43 UTC] PHP   7. wp_enqueue_style() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/functions.php:20
+[24-Jan-2022 14:38:43 UTC] PHP   8. _wp_scripts_maybe_doing_it_wrong() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.wp-styles.php:174
+[24-Jan-2022 14:38:43 UTC] PHP   9. _doing_it_wrong() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.wp-scripts.php:67
+[24-Jan-2022 14:38:43 UTC] PHP  10. trigger_error() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.php:5663
+[24-Jan-2022 14:38:43 UTC] PHP Notice:  wp_enqueue_style was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. This notice was triggered by the <code>api_page</code> handle. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.php on line 5663
+[24-Jan-2022 14:38:43 UTC] PHP Stack trace:
+[24-Jan-2022 14:38:43 UTC] PHP   1. {main}() /Users/matteo/Local Sites/projectblue/app/public/index.php:0
+[24-Jan-2022 14:38:43 UTC] PHP   2. require() /Users/matteo/Local Sites/projectblue/app/public/index.php:17
+[24-Jan-2022 14:38:43 UTC] PHP   3. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-blog-header.php:13
+[24-Jan-2022 14:38:43 UTC] PHP   4. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-load.php:50
+[24-Jan-2022 14:38:43 UTC] PHP   5. require_once() /Users/matteo/Local Sites/projectblue/app/public/wp-config.php:93
+[24-Jan-2022 14:38:43 UTC] PHP   6. include() /Users/matteo/Local Sites/projectblue/app/public/wp-settings.php:546
+[24-Jan-2022 14:38:43 UTC] PHP   7. wp_enqueue_style() /Users/matteo/Local Sites/projectblue/app/public/wp-content/themes/twentynineteen-child/functions.php:21
+[24-Jan-2022 14:38:43 UTC] PHP   8. _wp_scripts_maybe_doing_it_wrong() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.wp-styles.php:174
+[24-Jan-2022 14:38:43 UTC] PHP   9. _doing_it_wrong() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.wp-scripts.php:67
+[24-Jan-2022 14:38:43 UTC] PHP  10. trigger_error() /Users/matteo/Local Sites/projectblue/app/public/wp-includes/functions.php:5663
