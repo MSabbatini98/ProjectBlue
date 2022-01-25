@@ -1,1 +1,82 @@
+.main-navigation {
+    margin-top: 15px;
+}
 
+/* #region   Title */
+.site-title a {
+    position: relative;
+    font-size: 100px;
+    font-weight: bold;
+}
+.site-title a:hover {
+    color:white!important;
+}
+.site-title a:visited,
+.site-title a:active {
+    text-decoration: none;
+}
+.site-title a::after {
+    content: "ProjectBlue";
+    position: absolute;
+    width: 100%;
+    top: 3px;
+    bottom: 0;
+    left: 2px;
+    right: 0;
+    color: darkblue !important;
+}
+.site-title a:hover:after{
+    color: blue!important;
+}
+.site-title a::before {
+    content: "ProjectBlue";
+    position: absolute;
+    width: 100%;
+    top: -3px;
+    bottom: 0;
+    left: -4px;
+    right: 0;
+    color: blue !important;
+}
+.site-title a:hover:before{
+    color: darkblue!important;
+}
+
+/* #endregion */
+
+/* #region  Descrizione */
+p.site-description {
+    color: darkblue;
+    font-weight: bold;
+}
+/* #endregion */
+
+/* #region  Logo */
+
+a.custom-logo-link {
+    margin-top: 40px;
+    width: 100px !important;
+    height: 100px !important;
+}
+/* #endregion */
+
+/* #region  Menu e sottomenu */
+
+.main-navigation ul.main-menu > li > a, 
+.main-navigation ul.main-menu svg.svg-icon {
+    color: darkblue !important;
+}
+.main-navigation ul.main-menu > li > a:hover,
+.main-navigation .sub-menu > li > a:hover  {
+    color: darkblue !important;
+    background-color: white!important;
+}
+.main-navigation .sub-menu li {
+    background-color: darkblue;
+}
+.main-navigation .sub-menu > li > a {
+    color: white!important;
+    padding : 10px 4px;
+
+}
+/* #endregion */

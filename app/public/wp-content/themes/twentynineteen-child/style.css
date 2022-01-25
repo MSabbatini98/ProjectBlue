@@ -15,32 +15,46 @@ Text Domain: KadenceChild
 /* @import url("fonts/fonts.css"); */
 /* @import url("css/header.css"); */
 
-
-* {
-    /* background-color: blue; */
+/*  
+.* {
+    background-color: blue;
     color: #03254c;
-
-
-
-
-    /* ddd */
     color: #1167b1;
     color: #187bcd;
     color: #2a9df4;
     color: #d0efff;
-    color: #fff;
+    color: #fff; 
 }
-body{
-    background-color: rgba(5, 5, 61, 0.788);
-}
+ */
 
+ /* !!!!!!!!!!!!!!!!!! GLOBAL CLASSES !!!!!!!!!!!!!!!!!! */
+body{
+     background-color: rgba(45, 105, 255, 0.904);
+}
+.center {
+    margin: auto !important;
+}
+/* !!!!!!!!!!!!!!!!!! END GLOBAL CLASSES !!!!!!!!!!!!!!!!!! */
+
+
+.btn_primary a.wp-block-file__button{
+    background-color: darkviolet;
+    color: deeppink;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.btn_primary a.wp-block-file__button{
+    border: 2px solid white;
+}
+.post-navigation .nav-links a .meta-nav {
+    color: #03254c;
+}
 .entry-content .flowers blockquote p  {
     -webkit-box-shadow: 0px 0px 50px 50px #03254c; 
     box-shadow: 0px 0px 50px 50px #03254c;
     font-family: Cursive_Quotes !important;
     padding: 30px 0;
 }
-
 .flower_slider ul li{
     /* border: red solid 1px; */
     height: 500px;
@@ -56,36 +70,7 @@ body{
     height: 16%;
 
 }
-/* todo al download */
-.btn_primary a.wp-block-file__button{
-    background-color: darkviolet;
-    color: deeppink;
-    border: 2px solid white;
-    border-radius: 15px;
-}
 
-.btn_primary a.wp-block-file__button{
-    border: 2px solid white;
-}
-/* !!!!!!!!!!!!!!!!!! OVERRIDE !!!!!!!!!!!!!!!!!! */
-
-h2.entry-title {
-    font-size: 80px;
-    color: darkviolet;
-    font-family: "Gibberish";
-}
-
-.post-navigation .nav-links a .meta-nav {
-    color: #03254c;
-}
-
-
-/* !!!!!!!!!!!!!!!!!! GLOBAL CLASSES !!!!!!!!!!!!!!!!!! */
-
-
-.center {
-    margin: auto !important;
-}
 
 /* todo  non funziona, prende tutto voglio solo il bottone*/
 .btn_primary a.wp-block-file__button{
@@ -97,47 +82,4 @@ h2.entry-title {
 .btn_primary a.wp-block-file__button{
     border: 2px solid white;
 }
-
-
-.main-navigation {
-    margin-top: 15px;
-}
-
-.site-branding {
-    color: #03254c;
-    font-weight: bolder;
-}
-
-a.custom-logo-link {
-    margin-top: 40px;
-    width: 100px !important;
-    height: 100px !important;
-}
-/* 
-.site-title a {
-    position: relative;
-    color: white;
-    font-size: 100px;
-    font-weight: bold;
-}
-.site-title a::after {
-    content: "ProjectBlue";
-    position: absolute;
-    width: 100%;
-    top: 8px;
-    bottom: 0;
-    left: 8px;
-    right: 0;
-    color: darkblue !important;
-}
-.site-title a::before {
-    content: "ProjectBlue";
-    position: absolute;
-    width: 100%;
-    top: 6px;
-    bottom: 0;
-    left: 4px;
-    right: 0;
-    color: blue !important;
-} */
 
