@@ -16,21 +16,47 @@ footer aside.widget-area {
 }
     /* #region  "card" */
 
+    /* !! CARDS */
+
 .wp-block-latest-posts.is-grid li {
     /* background-color: yellow!important; */
-    width: 30%!important;
+    width: calc(25% - 50px) !important;
     margin: auto;
-    border: solid darkblue 2px;
-    border-radius: 10px;
+    background-color:  darkblue;
     padding: 20px;
 }
-.wp-block-latest-posts.is-grid li:hover {
-    background-color: rgba(255, 255, 255, 0.331);
+.wp-block-latest-posts.is-grid li a {
+    color: aqua!important;
+    font-weight: bold!important;
+}
+.wp-block-latest-posts.is-grid li > a:hover {
+    background-color: white;
+    color: blue!important; 
+    padding: 4px;
 }
 .wp-block-latest-posts.is-grid li a img{
     height: 190px!important;
     width: 300px!important;
 }
+.wp-block-latest-posts.is-grid li :not(a){
+    color: lightblue!important;
+}
+/* .hideNseek{
+    background-color: yellow;
+} */
+.wp-block-latest-posts.is-grid li a:hover .hideNseek{
+    background-color: pink!important;
+}
+
+.wp-block-latest-posts.is-grid li:hover {
+    background-color: rgba(255, 255, 255, 0.331);
+}
+.wp-block-latest-posts.is-grid li:hover {
+
+}
+
 /* #endregion */
 
 /* #endregion */
+
+
