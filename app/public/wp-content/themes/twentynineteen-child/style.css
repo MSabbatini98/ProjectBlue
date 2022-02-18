@@ -36,7 +36,10 @@ body{
 }
 /* !!!!!!!!!!!!!!!!!! END GLOBAL CLASSES !!!!!!!!!!!!!!!!!! */
 
-/* #region   */
+/* #region  Progressbar plugin */
+.readingProgressbar {
+    border: solid darkblue 5px;
+}
 
 /* #endregion */
 
