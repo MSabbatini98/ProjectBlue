@@ -1,7 +1,9 @@
 .main-navigation {
     margin-top: 15px;
 }
-
+.site-header.featured-image .site-branding-container {
+    background-color: rgba(255, 255, 255, 0.767);
+}
 /* #region   Title */
 .site-title a {
     position: relative;

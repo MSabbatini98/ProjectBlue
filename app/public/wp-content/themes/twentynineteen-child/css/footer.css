@@ -1,5 +1,5 @@
 footer {
-    border: solid red 3px!important;
+    /* border: solid red 3px!important; */
 }
 /* #region  Widget RECENT POST */
 
@@ -26,13 +26,10 @@ footer aside.widget-area {
     padding: 20px;
 }
 .wp-block-latest-posts.is-grid li a {
-    color: aqua!important;
+    color: skyblue!important;
     font-weight: bold!important;
-}
-.wp-block-latest-posts.is-grid li > a:hover {
-    background-color: white;
-    color: blue!important; 
-    padding: 4px;
+    padding: 5px;
+    white-space: normal;
 }
 .wp-block-latest-posts.is-grid li a img{
     height: 190px!important;
@@ -45,16 +42,17 @@ footer aside.widget-area {
     background-color: yellow;
 } */
 .wp-block-latest-posts.is-grid li a:hover .hideNseek{
-    background-color: pink!important;
+    background-color: red!important;
 }
 
 .wp-block-latest-posts.is-grid li:hover {
     background-color: rgba(255, 255, 255, 0.331);
 }
-.wp-block-latest-posts.is-grid li:hover {
-
+.wp-block-latest-posts.is-grid li:hover > a {
+    background-color: rgba(255, 255, 255, 0.331);
+    color: darkblue!important; 
+    padding: 4px;
 }
-
 /* #endregion */
 
 /* #endregion */
